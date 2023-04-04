@@ -1,5 +1,7 @@
 bueno la verdad esto es una verga asi q lo que voy a hacer es anotarme aca los pasos para que esta poronga funcione
 
+0.creamos la red a la que se conectaran nuestros containers con las siguientes variables: "docker network create mired"
+
 1. creamos una carpeta para la base de datos y uno para el backend, cada una con sus respetctivos archivos y Dockerfiles
 
 2. en la carpeta de la db creamos la img para la base de datos con el comando: "docker build -t mypsqldb:v56 ./" 
