@@ -18,3 +18,12 @@ checkeamos el server con
 6. nos conectamos a la base de datos con: psql -h localhost -U nathan -p 5432 -W mudanza
     vemos las tablas con \dt;
     vemos una tabla en particular con select * from tabla;
+
+
+COMMITEAR
+anoto los pasos xq siempre me los olvido
+
+git status 
+git add .
+git commit -m "coment"
+git push -u origin master
