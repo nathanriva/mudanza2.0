@@ -24,7 +24,6 @@ session = Session()
 #creamos el molde y la tabla
 base = declarative_base()
 
-#
 
 class ARTTABLE(base):
     __tablename__ = 'tablearticulos'
